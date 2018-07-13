@@ -49,7 +49,6 @@
     </ItemsRelations>
     <ItemsRelations xmi:id="_DQjF4IYpEeiYmIKhm440jQ">
       <baseItem xmi:id="_DQjF4YYpEeiYmIKhm440jQ" id="_qXC1sIYoEeiYmIKhm440jQ" version="0.1" type="job"/>
-      <relatedItems xmi:id="_DQjF4oYpEeiYmIKhm440jQ" id="_a1LDQIYoEeiYmIKhm440jQ" version="Latest" type="property"/>
       <relatedItems xmi:id="_DQjF44YpEeiYmIKhm440jQ" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_DQjF5IYpEeiYmIKhm440jQ" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_DQjF5YYpEeiYmIKhm440jQ" id="TalendString" version="Latest" type="routine"/>
@@ -66,6 +65,7 @@
       <relatedItems xmi:id="_DQjF8IYpEeiYmIKhm440jQ" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_DQjF8YYpEeiYmIKhm440jQ" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_DQjF8oYpEeiYmIKhm440jQ" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ke2zIIZQEeiXGaUMOf4MdQ" id="_Y5w_UIZQEeiXGaUMOf4MdQ" version="Latest" type="property"/>
     </ItemsRelations>
     <migrationTask xmi:id="_drpKoIXnEeiR_8wzafKW9Q" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_drpKoYXnEeiR_8wzafKW9Q" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
