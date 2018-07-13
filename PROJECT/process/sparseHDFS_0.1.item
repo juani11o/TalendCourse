@@ -416,7 +416,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="NOV"/>
       <elementValue elementRef="FAMILY_COLUMN" value="&quot;Date&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="DEC"/>
-      <elementValue elementRef="FAMILY_COLUMN" value="&quot;Date&quot;"/>
+      <elementValue elementRef="FAMILY_COLUMN" value="&quot;&quot;"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="CHECK" name="USE_BATCH_MODE" value="false"/>
