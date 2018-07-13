@@ -142,8 +142,6 @@
     <elementParameter field="TABLE" name="FILES">
       <elementValue elementRef="FILEMASK" value="&quot;support.xml&quot;"/>
       <elementValue elementRef="NEWNAME" value="&quot;support.xml&quot;"/>
-      <elementValue elementRef="FILEMASK" value="&quot;orders.xml&quot;"/>
-      <elementValue elementRef="NEWNAME" value="&quot;orders.xml&quot;"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
