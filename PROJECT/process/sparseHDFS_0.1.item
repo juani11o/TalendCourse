@@ -530,7 +530,28 @@
     <elementParameter field="CHECK" name="USE_BATCH_MODE" value="false"/>
     <elementParameter field="TEXT" name="BATCH_SIZE" value="500000" show="false"/>
     <elementParameter field="TABLE" name="HBASE_PARAMETERS" show="false"/>
-    <elementParameter field="TABLE" name="FAMILY_PARAMETERS"/>
+    <elementParameter field="TABLE" name="FAMILY_PARAMETERS">
+      <elementValue elementRef="FAMILY_NAME" value="&quot;id&quot;"/>
+      <elementValue elementRef="FAMILY_INMEMORY" value=""/>
+      <elementValue elementRef="FAMILY_BLOCKCACHEENABLED" value=""/>
+      <elementValue elementRef="FAMILY_BLOOMFILTERTYPE" value=""/>
+      <elementValue elementRef="FAMILY_BLOCKSIZE" value=""/>
+      <elementValue elementRef="FAMILY_COMPACTIONCOMPRESSIONTYPE" value=""/>
+      <elementValue elementRef="FAMILY_COMPRESSIONTYPE" value=""/>
+      <elementValue elementRef="FAMILY_MAXVERSIONS" value=""/>
+      <elementValue elementRef="FAMILY_SCOPE" value=""/>
+      <elementValue elementRef="FAMILY_TIMETOLIVE" value=""/>
+      <elementValue elementRef="FAMILY_NAME" value="&quot;Date&quot;"/>
+      <elementValue elementRef="FAMILY_INMEMORY" value=""/>
+      <elementValue elementRef="FAMILY_BLOCKCACHEENABLED" value=""/>
+      <elementValue elementRef="FAMILY_BLOOMFILTERTYPE" value=""/>
+      <elementValue elementRef="FAMILY_BLOCKSIZE" value=""/>
+      <elementValue elementRef="FAMILY_COMPACTIONCOMPRESSIONTYPE" value=""/>
+      <elementValue elementRef="FAMILY_COMPRESSIONTYPE" value=""/>
+      <elementValue elementRef="FAMILY_MAXVERSIONS" value=""/>
+      <elementValue elementRef="FAMILY_SCOPE" value=""/>
+      <elementValue elementRef="FAMILY_TIMETOLIVE" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="SET_MAPR_HOME_DIR" value="false" show="false"/>
     <elementParameter field="TEXT" name="MAPR_HOME_DIR" value="&quot;/opt/mapr&quot;" show="false"/>
     <elementParameter field="CHECK" name="SET_HADOOP_LOGIN" value="false" show="false"/>
